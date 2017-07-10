@@ -1,0 +1,16 @@
+{
+    "name": "lic/hello-composer",
+    "description": "Hola mundo en composer",
+    "authors": [
+        {
+            "name": "Live In Cluster",
+            "email": "liveincluster@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lic\\hello\\": "src/"
+        }
+    }
+}
